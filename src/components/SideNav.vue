@@ -12,29 +12,64 @@ defineProps<{
 
       <div>
         <p>Xenna San</p>
-        <p>ID. 0001234</p>
+        <p class="pb-sm">ID. 0001234</p>
         <div>
-          <p>Monto:</p>
-          <div>
-            <p>Icon</p>
-            <p>$3,400</p>
-            <button>Usar</button>
+          <p class="text-md">Monto Cash:</p>
+          <div class="cost-user-container">
+            <div class="coin-icon"><i class="fa-thin fa-dollar-sign"></i></div>
+            <p class="text-md">$3,400</p>
           </div>
         </div>
       </div>
+      <div style="align-self: end;">
+        <button>Usar</button>
+      </div>
     </div>
+    <hr />
     <div class="side-bar-option">
-      <a href="">Menú</a>
-      <a href="">Inicio</a>
-      <a href="">Historia</a>
-      <a href="">Guía de Uso</a>
-      <a href="">Perfil</a>
-      <a href="">Pago de Servicios</a>
-      <a href="">Tiempo Aire</a>
-      <a href="">Recomienda Monto</a>
-      <a href="">Ayuda</a>
-      <a href="">Acerca de Monto</a>
-      <a href="">Cerrar Sesión</a>
+      <div>
+        <a href="" style="padding-left: 15px;">Menú</a>
+      </div>
+      <div>
+         <i class="fa-thin fa-dollar-sign"></i>
+         <a href="">Inicio</a>
+      </div>
+      <div>
+        <i class="fa-thin fa-dollar-sign"></i>
+        <a href="">Historia</a>
+      </div>
+      <div>
+        <i class="fa-thin fa-dollar-sign"></i>
+        <a href="">Guía de Uso</a>
+      </div>
+      <div>
+        <i class="fa-thin fa-dollar-sign"></i>
+        <a href="">Perfil</a>
+      </div>
+      <div>
+        <i class="fa-thin fa-dollar-sign"></i>
+        <a href="">Pago de Servicios</a>
+      </div>
+      <div>
+        <i class="fa-thin fa-dollar-sign"></i>
+        <a href="">Tiempo Aire</a>
+      </div>
+      <div>
+        <i class="fa-thin fa-dollar-sign"></i>
+        <a href="">Recomienda Monto</a>
+      </div>
+      <div>
+        <i class="fa-thin fa-dollar-sign"></i>
+        <a href="">Ayuda</a>
+      </div>
+      <div>
+        <i class="fa-thin fa-dollar-sign"></i>
+        <a href="">Acerca de Monto</a>
+      </div>
+      <div>
+        <i class="fa-thin fa-dollar-sign"></i>
+        <a href="">Cerrar Sesión</a>
+      </div>
     </div>
 
   </div>
@@ -46,40 +81,85 @@ defineProps<{
 
 
 #side-bar{
-  width: 200px;
+  width: 250px;
   height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: #2565c7;
+  color: white;
+  padding:16px;
 }
 
 .side-bar-user{
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns:auto auto auto;
   padding-top: 32px;
+  padding-bottom: 20px;
 }
 
 .side-bar-user img{
   height: 70px;
   width: 70px;
   border-radius: 50%;
-  margin-right: 16px;
+}
+
+.side-bar-user button{
+  height: 25px;
+  width: 55px;
+  background-color: white;
+  color: #2565c7;
+  border: 0;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
 }
 
 .side-bar-option{
   display: flex;
   flex-direction: column;
+  padding-top:16px ;
+}
+
+.side-bar-option div{
+  padding-top: 16px;
+}
+
+.side-bar-option i{
+   margin-right: 8px;
+}
+
+.side-bar-option a{
+    color: white;
+    text-decoration: none;
 }
 
   .display-hamburger-menu {
     display: none;
   }
 
+.coin-icon{
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #fab603;
+  margin-right: 4px;
+}
+
+.cost-user-container{
+  display: flex;
+  justify-content: flex-start;
+}
+
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
   }
 }
+
 
 @media (max-width: 424px) {
 
