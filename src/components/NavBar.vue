@@ -8,7 +8,7 @@ defineProps<{
 <nav>
   <div>
       <i class="fa-solid fa-bell"></i>
-      <i class="fa-thin fa-bars display-hamburger-menu"></i>
+      <i class="fa-solid fa-bars display-hamburger-menu"></i>
   </div>
 </nav>
 </template>
@@ -33,9 +33,10 @@ nav div i:first-child{
 }
 
 
-  .display-hamburger-menu {
+   .display-hamburger-menu {
     display: none;
   }
+
 
 @media (hover: hover) {
   a:hover {
@@ -45,10 +46,14 @@ nav div i:first-child{
 
 @media (max-width: 424px) {
 
+
   .display-hamburger-menu {
     display: inline-block;
   }
 
+ .movile-none {
+    display: none;
+  }
 
 
 /*   nav {
@@ -58,7 +63,9 @@ nav div i:first-child{
 
 @media (min-width: 1024px) {
 
-
+  .desktop-none{
+    display: none;
+  }
 
 
 
