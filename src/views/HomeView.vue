@@ -38,18 +38,18 @@ import SideNav from '@/components/SideNav.vue'
       </div>
       <div class="flex flex-col p-md mt-lg text-center box-shadow-container text-blue-primary">
         <i class="fa-solid fa-circle-info self-right"></i>
-        <p>Restan 4 días para retirar</p>
-        <div>
-          <i class="fa-solid fa-calendar-days"></i>
-          <a href="">Guía de Uso</a>
+        <p>Resumen del periodo actual</p>
+        <div class="mt-md">
+          <i class="fa-solid fa-calendar-days mr-xsm"></i>
+          <a href="" class="text-blue-primary">Restan 4 días para retirar</a>
         </div>
-        <div>
-          <i class="fa-solid fa-arrow-up"></i>
-          <a href="">Tiene 3 retiros disponibles</a>
+        <div class="mt-md">
+          <i class="fa-solid fa-arrow-up mr-xsm"></i>
+          <a href="" class="text-blue-primary">Tiene 3 retiros disponibles</a>
         </div>
-        <div>
-          <i class="fa-solid fa-calendar"></i>
-          <a href="">12,727 salario trabajado</a>
+        <div class="mt-md">
+          <i class="fa-solid fa-calendar mr-xsm"></i>
+          <a href="" class="text-blue-primary">12,727 salario trabajado</a>
         </div>
       </div>
       <div class="">

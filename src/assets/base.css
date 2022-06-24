@@ -9,6 +9,10 @@ body {
  font-family: 'Source Sans Pro', sans-serif;
 }
 
+a{
+  text-decoration: none;
+}
+
 
 .w-full{
   width: 100%;
@@ -111,6 +115,9 @@ body {
 }
 
 
+.mr-xsm{
+  margin-right:8px;
+}
 
 .mb-md{
   padding: bottom 16px ;
