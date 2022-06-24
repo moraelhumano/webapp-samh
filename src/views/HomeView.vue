@@ -13,7 +13,9 @@ import SideNav from '@/components/SideNav.vue'
         <p class="">21 de Abril, 2022</p>
         <p class="text-xl">Bienvenida, Xenna</p>
       </div>
-      <div class="flex flex-col p-md mt-lg text-center box-shadow-container text-blue-primary">
+
+	  <div class="flex flex-col">
+		<div class="flex flex-col p-md mt-lg text-center box-shadow-container text-blue-primary">
         <i class="fa-solid fa-circle-info self-right"></i>
         <p class="text-lg ">Periodo actual</p>
         <p class="text-lg pb-md">01 al 15 de agosto</p>
@@ -25,7 +27,7 @@ import SideNav from '@/components/SideNav.vue'
             </div>
           </div>
         </div>
-        <div class="w-full flex justify-between mt-md">
+        <div class="w-full flex justify-between mt-md" style="padding-left:20px ;">
           <p>Inicia Periodo</p>
           <div>
             <p>13 de Agosto</p>
@@ -52,15 +54,49 @@ import SideNav from '@/components/SideNav.vue'
           <a href="" class="text-blue-primary">12,727 salario trabajado</a>
         </div>
       </div>
-      <div class="">
-        <p>Caja 3</p>
+      <div class="flex flex-col p-md mt-lg text-center box-shadow-container text-blue-primary mb-lg">
+        <i class="fa-solid fa-circle-info self-right"></i>
+        <p>¿Ya conoces los beneficios de monto?</p>
+        <img alt="user logo" class="self-center mt-lg" style="width: 200px; height:180px;" src="@/assets/images/champion-dude.png" />
+        <a href="" class="text-blue-primary text-lg mt-md">Ver más</a>
       </div>
+	  </div>
     </div>
+</section>
+
+<section  class="bottom-bar mt-md mb-lg" style="border-top:1px solid grey ;">
+	<div class="grid grid-bottom-nav w-screen  text-blue-primary">
+		<div class="flex justify-center flex-col items-center">
+			 <i class="fa-solid fa-house-chimney"></i>
+			 <p>Inicio</p>
+		</div>
+		<div class="flex justify-center flex-col items-center">
+			 <i class="fa-solid fa-clock"></i>
+			 <p>Historial</p>
+		</div>
+		<div class="flex justify-center flex-col items-center">
+			 <i class="fa-solid fa-map"></i>
+			 <p>Guía de uso</p>
+		</div>
+		<div class="flex justify-center flex-col items-center">
+			 <i class="fa-solid fa-user"></i>
+			 <p>Perfil</p>
+		</div>
+
+	</div>
 </section>
 </template>
 
 
+
+
+
 <style>
+
+
+.bottom-bar{
+	display: none;
+}
 .principal-container-sesion{
   display: flex;
   justify-content: space-between;
@@ -68,7 +104,7 @@ import SideNav from '@/components/SideNav.vue'
 
 
 .box-shadow-container{
-  width: 400px;
+  width: 370px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 10px;
 }
@@ -101,7 +137,7 @@ import SideNav from '@/components/SideNav.vue'
  .semi-donut {
 	 --percentage: 0;
 	 --fill: #ff0;
-	 width: 400px;
+	 width: 360px;
 	 height: 150px;
 	 position: relative;
 	 color: #fff;
@@ -254,8 +290,17 @@ import SideNav from '@/components/SideNav.vue'
 		 transform: rotate(180deg);
 	}
 }
+
+
  
 
+@media (max-width: 424px) {
+
+
+  .bottom-bar{
+  display: inline;
+}
+}
 
 
 

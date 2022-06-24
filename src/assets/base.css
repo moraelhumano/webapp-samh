@@ -18,6 +18,10 @@ a{
   width: 100%;
 }
 
+.w-screen{
+  width: 100vw;
+}
+
 
 /* CSS Flex */
 
@@ -40,6 +44,9 @@ a{
 .flex-col{
   flex-direction: column;
 }
+
+
+
 
 
 
@@ -120,8 +127,14 @@ a{
 }
 
 .mb-md{
-  padding: bottom 16px ;
+  padding-bottom:16px ;
 }
+
+.mb-lg{
+  margin-bottom: 32px;
+}
+
+
 
 
 
@@ -129,4 +142,24 @@ a{
 
 .self-right{
   align-self: flex-end;
+}
+
+.self-center{
+  align-self: center;
+}
+
+
+.justify-between{
+  justify-content: space-between;
+}
+
+
+/* grid */
+
+.grid{
+  display: grid;
+}
+
+.grid-bottom-nav{
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }

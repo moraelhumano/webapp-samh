@@ -8,7 +8,7 @@ defineProps<{
     <div id="side-bar" class="desktop-none movile-none ">
 
     <div class="side-bar-user">
-      <img alt="Vue logo" class="logo" src="@/assets/images/user-photo.jpg" width="125" height="125" />
+      <img alt="user logo" class="logo" src="@/assets/images/user-photo.jpg" width="125" height="125" />
 
       <div>
         <p>Xenna San</p>
@@ -84,7 +84,6 @@ defineProps<{
 
 #side-bar{
   width: 250px;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: #2565c7;
