@@ -36,8 +36,21 @@ import SideNav from '@/components/SideNav.vue'
           <button class="button-graph">Retirar un monto</button>
         </div>
       </div>
-      <div class="">
-        <p>Caja 2</p>
+      <div class="flex flex-col p-md mt-lg text-center box-shadow-container text-blue-primary">
+        <i class="fa-solid fa-circle-info self-right"></i>
+        <p>Restan 4 días para retirar</p>
+        <div>
+          <i class="fa-solid fa-calendar-days"></i>
+          <a href="">Guía de Uso</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-arrow-up"></i>
+          <a href="">Tiene 3 retiros disponibles</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-calendar"></i>
+          <a href="">12,727 salario trabajado</a>
+        </div>
       </div>
       <div class="">
         <p>Caja 3</p>
