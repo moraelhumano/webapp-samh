@@ -14,12 +14,28 @@ a{
 }
 
 
+/* Inputs */
+
+.input-form{
+  height: 30px;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid rgb(175, 174, 174);
+}
+
+
+
+
 .w-full{
   width: 100%;
 }
 
 .w-screen{
   width: 100vw;
+}
+
+.w-fit{
+  width: fit-content;
 }
 
 
@@ -85,6 +101,16 @@ a{
   color: #2565c7;
 }
 
+.text-white{
+  color:#fff;
+}
+
+
+/* Backgound color */
+.bg-blue-primary{
+  background-color: #2565c7;
+}
+
 /* Padding */
 
 .p-sm{
@@ -105,8 +131,18 @@ a{
 }
 
 
+.pt-lg{
+  padding-top: 16px;
+}
+
+
 .pt-2xl{
   padding-top: 32px;
+}
+
+
+.pt-4xl{
+  padding-top: 96px;
 }
 
 
@@ -151,6 +187,10 @@ a{
 
 .justify-between{
   justify-content: space-between;
+}
+
+.justify-center{
+  justify-content: space-center;
 }
 
 
