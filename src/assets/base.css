@@ -9,6 +9,36 @@ body {
  font-family: 'Source Sans Pro', sans-serif;
 }
 
+
+.w-full{
+  width: 100%;
+}
+
+
+/* CSS Flex */
+
+.flex{
+  display: flex;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+
+
 /* Font Size */
 
 .text-sm{
@@ -19,8 +49,49 @@ body {
   font-size: 14px;
 }
 
+.text-lg{
+  font-size: 18px;
+}
+
+.text-xl{
+  font-size: 22px;
+}
+
+
+/* Font Style */
+
+.text-center{
+  text-align: center;
+}
+
+
 /* Padding */
+
+.p-sm{
+  padding: 16px;
+}
+
+.p-md{
+  padding: 24px;
+}
 
 .pb-sm{
   padding-bottom:12px ;
+}
+
+.pb-md{
+  padding-bottom: 16px ;
+}
+
+
+.pt-2xl{
+  padding-top: 32px;
+}
+
+
+
+/* Margin */
+
+.mb-md{
+  padding: bottom 16px ;
 }
