@@ -64,12 +64,22 @@ body {
   text-align: center;
 }
 
+.font-lighter{
+  font-weight: lighter;
+}
+
+
+/* Font Color */
+.text-blue-primary{
+  color: #2565c7;
+}
 
 /* Padding */
 
 .p-sm{
   padding: 16px;
 }
+
 
 .p-md{
   padding: 24px;
@@ -92,6 +102,24 @@ body {
 
 /* Margin */
 
+.mt-md{
+  margin-top: 16px;
+}
+
+.mt-lg{
+  margin-top: 32px;
+}
+
+
+
 .mb-md{
   padding: bottom 16px ;
+}
+
+
+
+/* Flex */
+
+.self-right{
+  align-self: flex-end;
 }

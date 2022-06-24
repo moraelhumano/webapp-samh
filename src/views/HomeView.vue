@@ -13,26 +13,27 @@ import SideNav from '@/components/SideNav.vue'
         <p class="">21 de Abril, 2022</p>
         <p class="text-xl">Bienvenida, Xenna</p>
       </div>
-      <div class="p-md text-center box-shadow-container">
-        <p class="text-lg">Periodo actual</p>
+      <div class="flex flex-col p-md mt-lg text-center box-shadow-container text-blue-primary">
+        <i class="fa-solid fa-circle-info self-right"></i>
+        <p class="text-lg ">Periodo actual</p>
         <p class="text-lg pb-md">01 al 15 de agosto</p>
         <div style="width: 350px;">
           <div class="semi-donut " style="--percentage : 80; --fill: #00e097 ;margin-left: 22px;">
-            <div class="flex flex-col" style="padding-right:40px;padding-bottom: 20px;">
-              <span style="color:blue !important;">$3,400</span>
-              <span>Disponible</span>
+            <div class="flex flex-col text-blue-primary" style="padding-right:40px;padding-bottom: 20px;">
+              <span class="text-xl">$3,400</span>
+              <span class="text-md font-lighter">Disponible</span>
             </div>
           </div>
         </div>
-        <div class="w-full flex justify-between">
+        <div class="w-full flex justify-between mt-md">
           <p>Inicia Periodo</p>
           <div>
             <p>13 de Agosto</p>
             <p>Fecha de corte</p>
           </div>
         </div>
-        <div>
-          <button>Retira un monto</button>
+        <div class="mt-md">
+          <button class="button-graph">Retirar un monto</button>
         </div>
       </div>
       <div class="">
@@ -59,6 +60,7 @@ import SideNav from '@/components/SideNav.vue'
 .box-shadow-container{
   width: 400px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
 }
 
 
@@ -69,6 +71,19 @@ import SideNav from '@/components/SideNav.vue'
     flex-direction: column;
     align-items: center;
     padding-top: 32px;
+
+}
+
+
+.button-graph{
+    height: 45px;
+    width: 200px;
+    background-color: #2565c7;
+    color: #fff;
+    border: 0;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 
