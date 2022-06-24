@@ -44,9 +44,6 @@ import SideNav from '@/components/SideNav.vue'
       </div>
     </div>
 </section>
-  <main>
-    <TheWelcome />
-  </main>
 </template>
 
 
