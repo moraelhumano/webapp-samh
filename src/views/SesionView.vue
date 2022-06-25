@@ -13,28 +13,22 @@
       <form class="w-fit" action="">
         <p class="text-xl">Iniciar sesión</p>
         <div class="mt-md">
-          <p class="">Nombre(s)</p>
+          <p class="">Número de celular o correo electrónico</p>
           <input class="input-form" type="text" placeholder="Ingresa tu(s) nombre(s) legal">
         </div>
         <div class="mt-md">
-          <p class="">Apellido</p>
-          <input class="input-form" type="text" placeholder="Ingresa tu apellido">
+          <p class="">Contraseña</p>
+          <input class="input-form" type="password" placeholder="Ingresa tu apellido">
         </div>
-        <div class="mt-md">
-          <p class="">Fecha de nacimiento</p>
-          <input class="input-form" type="date">
-        </div>
-        <div class="mt-md">
-          <p class="">Correo electrónico (opcional)</p>
-          <input class="input-form" type="text" placeholder="Ingresa tu correo electrónico">
-        </div>
-        <div class="mt-md">
-          <p class="">Celular</p>
-          <input class="input-form" type="text" placeholder="Ingresa tu número celular">
-        </div>
-        <div class="w-full flex flex-col justify-center items-center mt-md">
+        <p class="text-blue-primary text-right" style="padding-right:8px; padding-top:6px;" >Olvidé mi contraseña</p>
+        <div class="w-full flex flex-col justify-center items-center mt-4xl">
           <button class="button-blue pointer">Siguiente</button>
-          <button class="button-white mt-md font-bold pointer">Cancelar</button>
+        </div>
+        <div class="flex justify-center flex-col align-center items-center">
+            <div class="flex mt-md">
+                <p>¿Aún no tienes cuenta?</p><a class="text-blue-primary" href="">Registrate</a>
+            </div>
+            <p class="text-blue-primary mt-md">Recomienda Monto</p>
         </div>
       </form>
     </div>
@@ -109,6 +103,10 @@
 
   .side-bar{
   display: none;
+}
+
+.mt-4xl{
+  margin-top: 128px;
 }
 
 

@@ -58,6 +58,25 @@ input{
 }
 
 
+.self-right{
+  align-self: flex-end;
+}
+
+.self-center{
+  align-self: center;
+}
+
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.justify-center{
+  justify-content: space-center;
+}
+
+
+
 
 
 
@@ -85,6 +104,10 @@ input{
 
 .text-center{
   text-align: center;
+}
+
+.text-right{
+  text-align: right;
 }
 
 .font-lighter{
@@ -153,6 +176,9 @@ input{
   margin-top: 32px;
 }
 
+.mt-4xl{
+  margin-top: 64px;
+}
 
 .mr-xsm{
   margin-right:8px;
@@ -170,24 +196,6 @@ input{
 
 
 
-/* Flex */
-
-.self-right{
-  align-self: flex-end;
-}
-
-.self-center{
-  align-self: center;
-}
-
-
-.justify-between{
-  justify-content: space-between;
-}
-
-.justify-center{
-  justify-content: space-center;
-}
 
 
 /* grid */
