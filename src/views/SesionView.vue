@@ -1,5 +1,4 @@
 <template>
-
   <section class="flex sesion-container">
     <div class="sesion-container-left flex flex-col bg-blue-primary text-white pt-4xl side-bar padding-left-form">
       <div class="text-xl font-lighter ">
@@ -10,27 +9,27 @@
     </div>
     
     <div class="sesion-container-right pt-2xl pt-4xl">
-      <form class="w-fit" action="">
-        <p class="text-xl">Iniciar sesión</p>
-        <div class="mt-md">
-          <p class="">Número de celular o correo electrónico</p>
-          <input class="input-form" type="text" placeholder="Ingresa tu(s) nombre(s) legal">
-        </div>
-        <div class="mt-md">
-          <p class="">Contraseña</p>
-          <input class="input-form" type="password" placeholder="Ingresa tu apellido">
-        </div>
-        <p class="text-blue-primary text-right" style="padding-right:8px; padding-top:6px;" >Olvidé mi contraseña</p>
-        <div class="w-full flex flex-col justify-center items-center mt-4xl">
-          <button class="button-blue pointer">Siguiente</button>
-        </div>
-        <div class="flex justify-center flex-col align-center items-center">
-            <div class="flex mt-md">
-                <p>¿Aún no tienes cuenta?</p><a class="text-blue-primary" href="">Registrate</a>
+        <form class="w-fit" action="">
+            <p class="text-xl">Iniciar sesión</p>
+            <div class="mt-md">
+                <p class="">Número de celular o correo electrónico</p>
+                <input class="input-form" type="text" placeholder="Ingresa tu(s) nombre(s) legal">
             </div>
-            <p class="text-blue-primary mt-md">Recomienda Monto</p>
-        </div>
-      </form>
+            <div class="mt-md">
+                <p class="">Contraseña</p>
+                <input class="input-form" type="password" placeholder="Ingresa tu apellido">
+            </div>
+            <p class="text-blue-primary text-right" style="padding-right:8px; padding-top:6px;" >Olvidé mi contraseña</p>
+            <div class="w-full flex flex-col justify-center items-center mt-4xl">
+                <button class="button-blue pointer">Siguiente</button>
+            </div>
+            <div class="flex justify-center flex-col align-center items-center">
+                <div class="flex mt-md">
+                    <p>¿Aún no tienes cuenta?</p><a class="text-blue-primary" href="">Registrate</a>
+                </div>
+                <p class="text-blue-primary mt-md">Recomienda Monto</p>
+            </div>
+        </form>
     </div>
   </section>
 </template>
@@ -49,7 +48,6 @@
   border: 1px solid rgb(175, 174, 174);
 }
 
-
 .sesion-container-left{
   width: 25%;
   height: 100%;
@@ -66,7 +64,6 @@
 .padding-left-form{
   padding-left: 32px;
 }
-
 
 .button-blue{
     height: 45px;
@@ -93,15 +90,10 @@
 }
 
 
-.padding-left-form{
-  padding-left: 32px;
-}
-
-
 @media (max-width: 424px) {
 
 
-  .side-bar{
+.side-bar{
   display: none;
 }
 
@@ -109,10 +101,9 @@
   margin-top: 128px;
 }
 
-
 .sesion-container-right{
   justify-content: center;
-   display: flex;
+  display: flex;
   padding-left: 0;
 }
 
@@ -126,12 +117,9 @@
 
 .sesion-container{
   justify-content: center;
-    display: flex;
-
+  display: flex;
 }
 
 }
-
-
 
 </style>

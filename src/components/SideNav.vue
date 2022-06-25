@@ -9,7 +9,6 @@ defineProps<{
 
     <div class="side-bar-user">
       <img alt="user logo" class="logo" src="@/assets/images/user-photo.jpg" width="125" height="125" />
-
       <div>
         <p>Xenna San</p>
         <p class="pb-sm">ID. 0001234</p>
@@ -78,9 +77,6 @@ defineProps<{
 </template>
 
 <style scoped>
-  
-
-
 
 #side-bar{
   width: 250px;

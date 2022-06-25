@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import TheWelcome from '@/components/TheWelcome.vue'
 import NavBar from '@/components/NavBar.vue'
 import SideNav from '@/components/SideNav.vue'
 </script>
@@ -7,61 +6,62 @@ import SideNav from '@/components/SideNav.vue'
 <template>
 <NavBar />
 <section class="principal-container-sesion">
-  <SideNav />
-    <div class="info-user-container" >
-      <div class="" style="width: 95%;">
+
+ <SideNav />
+ <div class="info-user-container" >
+	<div class="" style="width: 95%;">
         <p class="">21 de Abril, 2022</p>
         <p class="text-xl">Bienvenida, Xenna</p>
-      </div>
-
-	  <div class="flex flex-col">
-		<div class="flex flex-col p-md mt-lg text-center box-shadow-container text-blue-primary">
-        <i class="fa-solid fa-circle-info self-right"></i>
-        <p class="text-lg ">Periodo actual</p>
-        <p class="text-lg pb-md">01 al 15 de agosto</p>
-        <div style="width: 350px;">
-          <div class="semi-donut " style="--percentage : 80; --fill: #00e097 ;margin-left: 22px;">
-            <div class="flex flex-col text-blue-primary" style="padding-right:40px;padding-bottom: 20px;">
-              <span class="text-xl">$3,400</span>
-              <span class="text-md font-lighter">Disponible</span>
-            </div>
-          </div>
-        </div>
-        <div class="w-full flex justify-between mt-md" style="padding-left:20px ;">
-          <p>Inicia Periodo</p>
-          <div>
-            <p>13 de Agosto</p>
-            <p>Fecha de corte</p>
-          </div>
-        </div>
-        <div class="mt-md">
-          <button class="button-graph">Retirar un monto</button>
-        </div>
-      </div>
-      <div class="flex flex-col p-md mt-lg text-center box-shadow-container text-blue-primary">
-        <i class="fa-solid fa-circle-info self-right"></i>
-        <p>Resumen del periodo actual</p>
-        <div class="mt-md">
-          <i class="fa-solid fa-calendar-days mr-xsm"></i>
-          <a href="" class="text-blue-primary">Restan 4 días para retirar</a>
-        </div>
-        <div class="mt-md">
-          <i class="fa-solid fa-arrow-up mr-xsm"></i>
-          <a href="" class="text-blue-primary">Tiene 3 retiros disponibles</a>
-        </div>
-        <div class="mt-md">
-          <i class="fa-solid fa-calendar mr-xsm"></i>
-          <a href="" class="text-blue-primary">12,727 salario trabajado</a>
-        </div>
-      </div>
-      <div class="flex flex-col p-md mt-lg text-center box-shadow-container text-blue-primary mb-lg">
-        <i class="fa-solid fa-circle-info self-right"></i>
-        <p>¿Ya conoces los beneficios de monto?</p>
-        <img alt="user logo" class="self-center mt-lg" style="width: 200px; height:180px;" src="@/assets/images/champion-dude.png" />
-        <a href="" class="text-blue-primary text-lg mt-md">Ver más</a>
-      </div>
-	  </div>
     </div>
+
+	<div class="flex flex-col">
+		<div class="flex flex-col p-md mt-lg text-center box-shadow-container text-blue-primary">
+			<i class="fa-solid fa-circle-info self-right"></i>
+			<p class="text-lg ">Periodo actual</p>
+			<p class="text-lg pb-md">01 al 15 de agosto</p>
+			<div style="width: 350px;">
+				<div class="semi-donut " style="--percentage : 80; --fill: #00e097 ;margin-left: 22px;">
+					<div class="flex flex-col text-blue-primary" style="padding-right:40px;padding-bottom: 20px;">
+					<span class="text-xl">$3,400</span>
+					<span class="text-md font-lighter">Disponible</span>
+					</div>
+				</div>
+			</div>
+			<div class="w-full flex justify-between mt-md" style="padding-left:20px ;">
+				<p>Inicia Periodo</p>
+				<div>
+					<p>13 de Agosto</p>
+					<p>Fecha de corte</p>
+				</div>
+			</div>
+			<div class="mt-md">
+				<button class="button-graph">Retirar un monto</button>
+			</div>
+      	</div>
+		<div class="flex flex-col p-md mt-lg text-center box-shadow-container text-blue-primary">
+			<i class="fa-solid fa-circle-info self-right"></i>
+			<p>Resumen del periodo actual</p>
+			<div class="mt-md">
+				<i class="fa-solid fa-calendar-days mr-xsm"></i>
+				<a href="" class="text-blue-primary">Restan 4 días para retirar</a>
+			</div>
+			<div class="mt-md">
+				<i class="fa-solid fa-arrow-up mr-xsm"></i>
+				<a href="" class="text-blue-primary">Tiene 3 retiros disponibles</a>
+			</div>
+			<div class="mt-md">
+				<i class="fa-solid fa-calendar mr-xsm"></i>
+				<a href="" class="text-blue-primary">12,727 salario trabajado</a>
+			</div>
+		</div>
+		<div class="flex flex-col p-md mt-lg text-center box-shadow-container text-blue-primary mb-lg">
+			<i class="fa-solid fa-circle-info self-right"></i>
+			<p>¿Ya conoces los beneficios de monto?</p>
+			<img alt="user logo" class="self-center mt-lg" style="width: 200px; height:180px;" src="@/assets/images/champion-dude.png" />
+			<a href="" class="text-blue-primary text-lg mt-md">Ver más</a>
+		</div>
+	</div>
+</div>
 </section>
 
 <section  class="bottom-bar mt-md mb-lg" style="border-top:1px solid grey ;">
@@ -87,21 +87,17 @@ import SideNav from '@/components/SideNav.vue'
 </section>
 </template>
 
-
-
-
-
 <style>
-
 
 .bottom-bar{
 	display: none;
 }
+
+
 .principal-container-sesion{
   display: flex;
   justify-content: space-between;
 }
-
 
 .box-shadow-container{
   width: 370px;
@@ -109,14 +105,13 @@ import SideNav from '@/components/SideNav.vue'
   border-radius: 10px;
 }
 
-
 .info-user-container{
-    width: 90%;
-    display: flex;
-    justify-content: initial;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 32px;
+	width: 90%;
+	display: flex;
+	justify-content: initial;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 32px;
 
 }
 
@@ -296,13 +291,11 @@ import SideNav from '@/components/SideNav.vue'
 
 @media (max-width: 424px) {
 
-
   .bottom-bar{
   display: inline;
 }
+
 }
-
-
 
 
 </style>
