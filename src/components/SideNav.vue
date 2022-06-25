@@ -66,7 +66,7 @@ defineProps<{
         <i class="fa-thin fa-dollar-sign"></i>
         <a href="">Acerca de Monto</a>
       </div>
-      <RouterLink to="/iniciarsesion">
+      <RouterLink to="/registro">
         <div>
           <i class="fa-solid fa-right-from-bracket" style="margin-top: 30px;"></i>
           <a href="">Cerrar Sesión</a>
