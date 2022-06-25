@@ -1,7 +1,7 @@
 <template>
 
-  <section class="flex justify-between sesion-container">
-    <div class="sesion-container-left flex flex-col bg-blue-primary text-white pt-4xl side-bar" style="padding-left: 32px;">
+  <section class="flex sesion-container">
+    <div class="sesion-container-left flex flex-col bg-blue-primary text-white pt-4xl side-bar padding-left-form">
       <div class="text-xl font-lighter ">
         <p>Tu dinero</p>
         <p>cuando quieras</p>
@@ -9,7 +9,7 @@
       <p>Conoce más acerca de monto</p>
     </div>
     
-    <div class="sesion-container-right pt-2xl pt-4xl" style="padding-left:32px;">
+    <div class="sesion-container-right pt-2xl pt-4xl">
       <form class="w-fit" action="">
         <p class="text-xl">Iniciar sesión</p>
         <div class="mt-md">
@@ -33,8 +33,8 @@
           <input class="input-form" type="text" placeholder="Ingresa tu número celular">
         </div>
         <div class="w-full flex flex-col justify-center items-center mt-md">
-          <button class="button-blue">Siguiente</button>
-          <button class="button-white mt-sm font-bold">Cancelar</button>
+          <button class="button-blue pointer">Siguiente</button>
+          <button class="button-white mt-md font-bold pointer">Cancelar</button>
         </div>
       </form>
     </div>
@@ -48,6 +48,14 @@
   height: 100vh;
 }
 
+.input-form{
+  height: 30px;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid rgb(175, 174, 174);
+}
+
+
 .sesion-container-left{
   width: 25%;
   height: 100%;
@@ -57,6 +65,12 @@
 
 .sesion-container-right{
   width: 75%;
+  height: 100%;
+  padding-left: 32px;
+}
+
+.padding-left-form{
+  padding-left: 32px;
 }
 
 
@@ -85,12 +99,39 @@
 }
 
 
+.padding-left-form{
+  padding-left: 32px;
+}
+
+
 @media (max-width: 424px) {
 
 
   .side-bar{
   display: none;
 }
+
+
+.sesion-container-right{
+  justify-content: center;
+   display: flex;
+  padding-left: 0;
+}
+
+.input-form{
+  height: 30px;
+  width: 280px;
+  border-radius: 5px;
+  border: 1px solid rgb(175, 174, 174);
+}
+
+
+.sesion-container{
+  justify-content: center;
+    display: flex;
+
+}
+
 }
 
 

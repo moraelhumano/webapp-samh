@@ -16,13 +16,9 @@ a{
 
 /* Inputs */
 
-.input-form{
-  height: 30px;
-  width: 400px;
-  border-radius: 5px;
-  border: 1px solid rgb(175, 174, 174);
+input{
+  padding-left: 8px;
 }
-
 
 
 
@@ -202,4 +198,9 @@ a{
 
 .grid-bottom-nav{
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.pointer{
+  cursor: pointer;
 }
