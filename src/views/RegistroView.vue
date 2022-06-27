@@ -33,7 +33,9 @@
           <input class="input-form" type="text" placeholder="Ingresa tu número celular">
         </div>
         <div class="w-full flex flex-col justify-center items-center mt-md">
-          <button class="button-blue pointer">Siguiente</button>
+          <RouterLink to="/iniciarsesion">
+            <button class="button-blue pointer">Siguiente</button>
+          </RouterLink>
           <button class="button-white mt-md font-bold pointer">Cancelar</button>
         </div>
       </form>
