@@ -27,7 +27,7 @@
                 <div class="flex mt-md">
                     <p>¿Aún no tienes cuenta?</p><a class="text-blue-primary" href="">Registrate</a>
                 </div>
-                <p class="text-blue-primary mt-md">Recomienda Monto</p>
+                <p class="text-blue-primary mt-md">Recomienda Monto</p> 
             </div>
         </form>
     </div>
